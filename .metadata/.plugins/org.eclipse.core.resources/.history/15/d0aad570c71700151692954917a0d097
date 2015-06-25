@@ -1,0 +1,6 @@
+
+public class moveZerosToLeft {
+	public static void moveZerosToLeft(int[] A){
+		
+	}
+}

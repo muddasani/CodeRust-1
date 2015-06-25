@@ -1,0 +1,13 @@
+import java.util.*;
+
+
+public class swapNode {
+	
+	public class LinkedListNode {
+		int data;
+		LinkedListNode next;
+	}
+	
+	public static
+
+}

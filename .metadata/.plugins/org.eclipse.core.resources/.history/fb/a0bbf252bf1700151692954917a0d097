@@ -1,0 +1,12 @@
+
+public class binarySearch {
+	
+	public static void main(String Args[]){
+		
+	}
+	
+	public static int binarySearch(int a[],int low, int high){
+		
+	}
+
+}

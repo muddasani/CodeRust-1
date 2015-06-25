@@ -1,0 +1,12 @@
+
+public class scoringNruns {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	//Scoring options are 1,2,4
+	
+
+}

@@ -1,0 +1,15 @@
+
+public class identicalTrees {
+	
+	public static class TreeNode {
+		int data;
+		TreeNode left;
+	}
+	
+	
+	
+	public static void inOrder(TreeNode root){
+		
+	}
+
+}

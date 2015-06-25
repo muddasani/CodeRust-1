@@ -1,0 +1,14 @@
+
+public class identicalTrees {
+	
+	public static class TreeNode {
+		
+	}
+	
+	
+	
+	public static void inOrder(TreeNode root){
+		
+	}
+
+}

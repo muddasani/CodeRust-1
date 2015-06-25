@@ -1,0 +1,27 @@
+import java.util.*;
+
+
+public class deleteZeroSumTrees {
+	public static class TreeNode {
+		int data;
+		TreeNode left;
+		TreeNode right;
+		
+		public TreeNode(int data){
+			this.data = data;
+		}
+	}
+	
+	
+	
+	
+	public static void inOrder(TreeNode root){
+		if(root != null){
+			inOrder(root.left);
+			System.out.print(root.data);
+			System.out.print(" ");
+			inOrder(root.right);
+		}
+	}
+
+}

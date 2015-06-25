@@ -1,0 +1,23 @@
+
+public class rotateArray {
+	
+	public static void reverseArray(int[] arr, int start, int end){
+		while(start < end){
+			int temp = arr[start];
+			arr[start] = arr[end];
+			arr[end] = temp;
+			end--;
+			start++;
+		}
+	}
+	
+	public static void rotateArray(int[] arr, int n){
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,37 @@
+import java.util.*;
+
+
+public class nthHighestInBST {
+	
+	public static class TreeNode {
+		int data;
+		TreeNode left;
+		TreeNode right;
+		
+		public TreeNode(int data){
+			this.data = data;
+		}
+	}
+	
+	public static void inOrder(TreeNode root){
+		if(root != null){
+			inOrder(root.left);
+			System.out.print(root.data);
+			System.out.print(" ");
+			inOrder(root.right);
+		}
+	}
+	
+	public static TreeNode findNthHighestInBST(TreeNode node, int n){
+		if(node == null){
+			return null;	
+		}
+		TreeNode result = findNthHighestInBST(node.right); 
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

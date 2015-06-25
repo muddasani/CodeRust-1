@@ -1,0 +1,24 @@
+import java.util.*;
+
+
+public class swapNode {
+	
+	public class LinkedListNode {
+		int data;
+		LinkedListNode next;
+	}
+	
+	public static LinkedListNode swapNodeLL(LinkedListNode head, int n){
+		LinkedListNode prev = null;
+		LinkedListNode cur = head;
+		
+		if(head == null){
+			return null;
+		}
+		
+		if(n == 1){
+			
+		}
+	}
+
+}

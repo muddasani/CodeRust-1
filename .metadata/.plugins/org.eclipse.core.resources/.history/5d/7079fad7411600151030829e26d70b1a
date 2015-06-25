@@ -1,0 +1,23 @@
+
+public class reverseAlinkedList {
+	
+	public class LinkedListNode {
+		int data;
+		LinkedListNode next;
+	}
+	
+	
+	public static LinkedListNode reverseLinkedList(LinkedListNode head){
+		
+		if(head == null || head.next == null){
+			return head;
+		}
+		
+		LinkedListNode listToDo = head.next;
+		LinkedListNode reversedList = head;
+		
+		while(listToDo != null)
+		
+	}
+
+}

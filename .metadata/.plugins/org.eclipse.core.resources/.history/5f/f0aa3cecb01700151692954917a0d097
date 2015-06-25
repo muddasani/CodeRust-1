@@ -1,0 +1,24 @@
+import mirrorBinaryTree.TreeNode;
+
+
+public class populateSiblingPointers {
+	
+	
+	public static void main(String[] args) {
+		TreeNode root = new TreeNode(5);
+		TreeNode h1 = new TreeNode(0);
+		TreeNode h2 = new TreeNode(10);
+		
+		root.left = h1;
+		root.right = h2;
+		
+		h1.left = null;
+		h1.right = null;
+		
+		h2.left = null;
+		h2.right = null;
+		inOrder(root);
+
+	}
+
+}

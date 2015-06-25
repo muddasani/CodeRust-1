@@ -1,0 +1,62 @@
+import java.util.*;
+
+
+public class levelOrderTraversal {
+
+	public static class TreeNode {
+		int data;
+		TreeNode left;
+		TreeNode right;
+		
+		public TreeNode(int data){
+			this.data = data;
+		}
+	}
+	
+	public static void inOrder(TreeNode root){
+		if(root != null){
+			inOrder(root.left);
+			System.out.print(root.data);
+			System.out.print(" ");
+			inOrder(root.right);
+		}
+	}
+	
+	public static void levelOrderTraversal(TreeNode root){
+		if(root == null){
+			return;
+		}
+		
+		ArrayList<Queue<TreeNode>> queues = new ArrayList<Queue<TreeNode>>();
+		queues.add(new ArrayDeque<TreeNode>());
+		queues.add(new ArrayDeque<TreeNode>());
+		
+		Queue<TreeNode> currentQueue = queues.get(0);
+		Queue<TreeNode> nextQueue = queues.get(1);
+		
+		currentQueue.add(root);
+		int level =0;
+		
+		while(!currentQueue.isEmpty()){
+			
+		}
+	}
+
+	public static void main(String[] args) {
+		TreeNode root = new TreeNode(5);
+		TreeNode h1 = new TreeNode(0);
+		TreeNode h2 = new TreeNode(10);
+		
+		root.left = h1;
+		root.right = h2;
+		
+		h1.left = null;
+		h1.right = null;
+		
+		h2.left = null;
+		h2.right = null;
+		inOrder(root);
+
+	}
+
+}

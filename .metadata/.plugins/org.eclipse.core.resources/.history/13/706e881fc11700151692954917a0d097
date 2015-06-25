@@ -1,0 +1,13 @@
+
+public class findSmallestCommonNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static int findLeastCommonNumber(int[] arr1, int[] arr2, int[] arr3){
+		
+	}
+
+}

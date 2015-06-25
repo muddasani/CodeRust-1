@@ -1,0 +1,21 @@
+
+public class reverseAlinkedList {
+	
+	public class LinkedListNode {
+		int data;
+		LinkedListNode node;
+	}
+	
+	
+	public static void reverseLinkedList(LinkedListNode head){
+		
+		LinkedListNode temp;
+		LinkedListNode prev;
+		
+		while(head != null){
+			
+		}
+		
+	}
+
+}

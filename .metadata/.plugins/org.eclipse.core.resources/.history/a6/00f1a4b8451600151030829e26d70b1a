@@ -1,0 +1,30 @@
+import java.util.*;
+
+
+public class rotateLinkedList {
+	
+	public class LinkedListNode {
+		int data;
+		LinkedListNode next;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static LinkedListNode rotateLL(LinkedListNode head, int n){
+		
+		//Find nth node
+		int i = 0;
+		LinkedListNode cur = head;
+		while(i < n && cur != null){
+			cur = cur.next;
+			i++;
+		}
+		
+		
+		return null;
+	}
+
+}

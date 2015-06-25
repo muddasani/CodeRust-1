@@ -1,0 +1,27 @@
+
+public class quickSort {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static int partition(int[] arr,int low, int high){
+		while(high > low){
+			
+		}
+	}
+	
+	public static void quickSort(int[] arr, int low, int high){
+		if(high > low){
+			int j = partition(arr,low,high);
+			quickSort(arr,low,j - 1);
+			quickSort(arr,j+1,high);
+		}
+	}
+	
+	public static void quickSort(int[] arr){
+		quickSort(arr,0,arr.length -1);
+	}
+
+}

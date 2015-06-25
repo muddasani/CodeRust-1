@@ -1,0 +1,16 @@
+import java.util.*;
+
+
+public class deleteNode {
+	
+	public class LinkedListNode {
+		int data;
+		LinkedListNode next;
+	}
+	
+	
+	public static void deleteNodeLL(LinkedListNode head){
+		
+	}
+
+}

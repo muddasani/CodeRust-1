@@ -1,0 +1,32 @@
+import java.util.*;
+
+
+public class swapNode {
+	
+	public class LinkedListNode {
+		int data;
+		LinkedListNode next;
+	}
+	
+	public static LinkedListNode swapNodeLL(LinkedListNode head, int n){
+		LinkedListNode prev = null;
+		LinkedListNode cur = head;
+		
+		//Edge case 1
+		if(head == null){
+			return null;
+		}
+		
+		//Edge case:1
+		if(n == 1){
+			return head;
+		}
+		
+		for(int count = 1; cur != null && count < n;count++){
+			prev = cur;
+			cur = cur.next;
+			
+		}
+	}
+
+}

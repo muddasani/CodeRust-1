@@ -1,0 +1,15 @@
+
+public class binarySearch {
+	
+	public static void main(String Args[]){
+		
+	}
+	
+	public static int binarySearch(int a[],int low, int high){
+		if(low > high){
+			return -1;
+		}
+		int mid = low + (high - low)/2;
+	}
+
+}

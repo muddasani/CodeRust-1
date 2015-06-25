@@ -1,0 +1,56 @@
+
+public class identicalTrees {
+	
+	public static class TreeNode {
+		int data;
+		TreeNode left;
+		TreeNode right;
+		
+		public TreeNode(int data){
+			this.data = data;
+		}
+	}
+	
+	
+	
+	
+	public static void inOrder(TreeNode root){
+		if(root != null){
+			inOrder(root.left);
+			System.out.println(root.data);
+			inOrder(root.right);
+		}
+	}
+	
+	public static boolean areIdenticalTrees(TreeNode root1, TreeNode root2){
+		if(root1 == null && root2 == null){
+			return true;
+		}
+		if(root1 != null && root2 != null){
+			return (root1.data == root2.data) && areIdenticalTrees(root1.left,root2.left) && areIdenticalTrees(root1.right, root2.right);
+		}
+		
+		return false;
+		
+	}
+	
+	public static void main(String args[]){
+		TreeNode root = new TreeNode(5);
+		TreeNode h1 = new TreeNode(0);
+		TreeNode h2 = new TreeNode(10);
+		
+		root.left = h1;
+		root.right = h2;
+		
+		h1.left = null;
+		h1.right = null;
+		
+		h2.left = null;
+		h2.right = null;
+		
+		
+		
+		
+	}
+
+}

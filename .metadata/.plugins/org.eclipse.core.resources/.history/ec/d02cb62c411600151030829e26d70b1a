@@ -1,0 +1,17 @@
+
+public class reverseAlinkedList {
+	
+	public class LinkedListNode {
+		int data;
+		LinkedListNode node;
+	}
+	
+	
+	public static void reverseLinkedList(LinkedListNode head){
+		
+		
+		while(head != null)
+		
+	}
+
+}

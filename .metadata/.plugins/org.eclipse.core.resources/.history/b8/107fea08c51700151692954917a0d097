@@ -1,0 +1,14 @@
+import java.util.*;
+public class findLowHighIndex {
+	
+	public static int findLowIndex(List<Integer> arr, int key){
+		
+		int low = 0;
+		int high = arr.size() - 1;
+		
+		
+		
+		return key;	
+	}
+
+}

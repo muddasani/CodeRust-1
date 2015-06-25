@@ -1,0 +1,18 @@
+import deleteNode.LinkedListNode;
+
+
+public class rotateLinkedList {
+	
+	public class LinkedListNode {
+		int data;
+		LinkedListNode next;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static LinkedListNode
+
+}
